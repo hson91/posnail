@@ -1,0 +1,1 @@
+<?php $this->renderPartial($this->view.'_detail',array('model' => $model));?>

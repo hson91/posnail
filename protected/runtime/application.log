@@ -1,0 +1,1538 @@
+2015/07/03 14:44:03 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\posnail\lib\yii\web\CController.php:337
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\posnail\lib\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(292): CFilterChain->run()
+#7 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('detail')
+#9 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('admin/user/deta...')
+#10 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\posnail\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/posnail/admin/user/detail/3
+HTTP_REFERER=http://localhost:81/posnail/admin/user/index
+---
+2015/07/03 14:44:13 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\posnail\lib\yii\web\CController.php:337
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\posnail\lib\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(292): CFilterChain->run()
+#7 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('detail')
+#9 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('admin/user/deta...')
+#10 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\posnail\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/posnail/admin/user/detail/3
+HTTP_REFERER=http://localhost:81/posnail/admin/user/index
+---
+2015/07/03 14:44:15 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\posnail\lib\yii\web\CController.php:337
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\posnail\lib\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(292): CFilterChain->run()
+#7 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('detail')
+#9 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('admin/user/deta...')
+#10 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\posnail\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/posnail/admin/user/detail/3
+HTTP_REFERER=http://localhost:81/posnail/admin/user/index
+---
+2015/07/03 14:57:34 [error] [exception.CException] exception 'CException' with message 'Property "Customer.updated" is not defined.' in C:\xampp\htdocs\posnail\lib\yii\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\db\ar\CActiveRecord.php(144): CComponent->__get('updated')
+#1 C:\xampp\htdocs\posnail\lib\yii\web\helpers\CHtml.php(2158): CActiveRecord->__get('updated')
+#2 C:\xampp\htdocs\posnail\lib\yii\web\helpers\CHtml.php(1887): CHtml::resolveValue(Object(Customer), 'updated')
+#3 C:\xampp\htdocs\posnail\lib\yii\web\helpers\CHtml.php(1217): CHtml::activeInputField('text', Object(Customer), 'updated', Array)
+#4 C:\xampp\htdocs\posnail\lib\yii\zii\widgets\grid\CDataColumn.php(98): CHtml::activeTextField(Object(Customer), 'updated', Array)
+#5 C:\xampp\htdocs\posnail\lib\yii\zii\widgets\grid\CGridColumn.php(110): CDataColumn->renderFilterCellContent()
+#6 C:\xampp\htdocs\posnail\lib\yii\zii\widgets\grid\CGridView.php(477): CGridColumn->renderFilterCell()
+#7 C:\xampp\htdocs\posnail\lib\yii\zii\widgets\grid\CGridView.php(455): CGridView->renderFilter()
+#8 C:\xampp\htdocs\posnail\lib\yii\zii\widgets\grid\CGridView.php(425): CGridView->renderTableHeader()
+#9 C:\xampp\htdocs\posnail\lib\yii\zii\widgets\CBaseListView.php(161): CGridView->renderItems()
+#10 [internal function]: CBaseListView->renderSection(Array)
+#11 C:\xampp\htdocs\posnail\lib\yii\zii\widgets\CBaseListView.php(144): preg_replace_callback('/{(\\w+)}/', Array, '{summary}\n{item...')
+#12 C:\xampp\htdocs\posnail\lib\yii\zii\widgets\CBaseListView.php(129): CBaseListView->renderContent()
+#13 C:\xampp\htdocs\posnail\lib\yii\web\CBaseController.php(174): CBaseListView->run()
+#14 C:\xampp\htdocs\posnail\protected\modules\admin\views\store\detail.php(233): CBaseController->widget('zii.widgets.gri...', Array)
+#15 C:\xampp\htdocs\posnail\lib\yii\web\CBaseController.php(127): require('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\posnail\lib\yii\web\CBaseController.php(96): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#17 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(870): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#18 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(783): CController->renderPartial('detail', Array, true)
+#19 C:\xampp\htdocs\posnail\protected\modules\admin\controllers\StoreController.php(133): CController->render('detail', Array)
+#20 [internal function]: StoreController->actionDetail('1')
+#21 C:\xampp\htdocs\posnail\lib\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(StoreController), Array)
+#22 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(StoreController), Object(ReflectionMethod), Array)
+#23 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#24 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#25 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#26 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#27 C:\xampp\htdocs\posnail\lib\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#28 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#29 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(292): CFilterChain->run()
+#30 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#31 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('detail')
+#32 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('admin/store/det...')
+#33 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#34 C:\xampp\htdocs\posnail\index.php(13): CApplication->run()
+#35 {main}
+REQUEST_URI=/posnail/admin/store/detail/1
+HTTP_REFERER=http://localhost:81/posnail/admin/user/detail/SV3
+---
+2015/07/03 14:58:54 [error] [exception.CException] exception 'CException' with message 'Property "Customer.updated" is not defined.' in C:\xampp\htdocs\posnail\lib\yii\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\db\ar\CActiveRecord.php(144): CComponent->__get('updated')
+#1 C:\xampp\htdocs\posnail\lib\yii\web\helpers\CHtml.php(2158): CActiveRecord->__get('updated')
+#2 C:\xampp\htdocs\posnail\lib\yii\web\helpers\CHtml.php(1887): CHtml::resolveValue(Object(Customer), 'updated')
+#3 C:\xampp\htdocs\posnail\lib\yii\web\helpers\CHtml.php(1217): CHtml::activeInputField('text', Object(Customer), 'updated', Array)
+#4 C:\xampp\htdocs\posnail\lib\yii\zii\widgets\grid\CDataColumn.php(98): CHtml::activeTextField(Object(Customer), 'updated', Array)
+#5 C:\xampp\htdocs\posnail\lib\yii\zii\widgets\grid\CGridColumn.php(110): CDataColumn->renderFilterCellContent()
+#6 C:\xampp\htdocs\posnail\lib\yii\zii\widgets\grid\CGridView.php(477): CGridColumn->renderFilterCell()
+#7 C:\xampp\htdocs\posnail\lib\yii\zii\widgets\grid\CGridView.php(455): CGridView->renderFilter()
+#8 C:\xampp\htdocs\posnail\lib\yii\zii\widgets\grid\CGridView.php(425): CGridView->renderTableHeader()
+#9 C:\xampp\htdocs\posnail\lib\yii\zii\widgets\CBaseListView.php(161): CGridView->renderItems()
+#10 [internal function]: CBaseListView->renderSection(Array)
+#11 C:\xampp\htdocs\posnail\lib\yii\zii\widgets\CBaseListView.php(144): preg_replace_callback('/{(\\w+)}/', Array, '{summary}\n{item...')
+#12 C:\xampp\htdocs\posnail\lib\yii\zii\widgets\CBaseListView.php(129): CBaseListView->renderContent()
+#13 C:\xampp\htdocs\posnail\lib\yii\web\CBaseController.php(174): CBaseListView->run()
+#14 C:\xampp\htdocs\posnail\protected\modules\admin\views\store\detail.php(233): CBaseController->widget('zii.widgets.gri...', Array)
+#15 C:\xampp\htdocs\posnail\lib\yii\web\CBaseController.php(127): require('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\posnail\lib\yii\web\CBaseController.php(96): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#17 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(870): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#18 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(783): CController->renderPartial('detail', Array, true)
+#19 C:\xampp\htdocs\posnail\protected\modules\admin\controllers\StoreController.php(133): CController->render('detail', Array)
+#20 [internal function]: StoreController->actionDetail('1')
+#21 C:\xampp\htdocs\posnail\lib\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(StoreController), Array)
+#22 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(StoreController), Object(ReflectionMethod), Array)
+#23 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#24 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#25 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#26 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#27 C:\xampp\htdocs\posnail\lib\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#28 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#29 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(292): CFilterChain->run()
+#30 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#31 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('detail')
+#32 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('admin/store/det...')
+#33 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#34 C:\xampp\htdocs\posnail\index.php(13): CApplication->run()
+#35 {main}
+REQUEST_URI=/posnail/admin/store/detail/1
+HTTP_REFERER=http://localhost:81/posnail/admin/user/detail/SV3
+---
+2015/07/03 15:06:53 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\posnail\lib\yii\web\CController.php:337
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\posnail\lib\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(292): CFilterChain->run()
+#7 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('detail')
+#9 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('admin/user/deta...')
+#10 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\posnail\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/posnail/admin/user/detail/3
+HTTP_REFERER=http://localhost:81/posnail/admin/user/index
+---
+2015/07/03 15:19:05 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\posnail\lib\yii\web\CController.php:337
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\posnail\lib\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(292): CFilterChain->run()
+#7 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('detail')
+#9 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('admin/user/deta...')
+#10 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\posnail\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/posnail/admin/user/detail/1
+HTTP_REFERER=http://localhost:81/posnail/admin/user/administrator
+---
+2015/07/03 15:23:08 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\posnail\lib\yii\web\CController.php:337
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\posnail\lib\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(292): CFilterChain->run()
+#7 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('detail')
+#9 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('admin/user/deta...')
+#10 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\posnail\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/posnail/admin/user/detail/18
+HTTP_REFERER=http://localhost:81/posnail/admin/store/index
+---
+2015/07/03 15:24:56 [error] [exception.CException] exception 'CException' with message 'CustomerController cannot find the requested view "detail".' in C:\xampp\htdocs\posnail\lib\yii\web\CController.php:879
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(783): CController->renderPartial('detail', Array, true)
+#1 C:\xampp\htdocs\posnail\protected\modules\admin\controllers\CustomerController.php(79): CController->render('detail', Array)
+#2 [internal function]: CustomerController->actionDetail('2')
+#3 C:\xampp\htdocs\posnail\lib\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(CustomerController), Array)
+#4 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(CustomerController), Object(ReflectionMethod), Array)
+#5 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#8 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\posnail\lib\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(292): CFilterChain->run()
+#12 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('detail')
+#14 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('admin/customer/...')
+#15 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\posnail\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/posnail/admin/customer/detail/2
+HTTP_REFERER=http://localhost:81/posnail/admin/order/index
+---
+2015/07/03 15:25:01 [error] [exception.CException] exception 'CException' with message 'ServiceController cannot find the requested view "detail".' in C:\xampp\htdocs\posnail\lib\yii\web\CController.php:879
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(783): CController->renderPartial('detail', Array, true)
+#1 C:\xampp\htdocs\posnail\protected\modules\admin\controllers\ServiceController.php(79): CController->render('detail', Array)
+#2 [internal function]: ServiceController->actionDetail('3')
+#3 C:\xampp\htdocs\posnail\lib\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ServiceController), Array)
+#4 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ServiceController), Object(ReflectionMethod), Array)
+#5 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#8 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\posnail\lib\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(292): CFilterChain->run()
+#12 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('detail')
+#14 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('admin/service/d...')
+#15 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\posnail\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/posnail/admin/service/detail/3
+HTTP_REFERER=http://localhost:81/posnail/admin/service/index
+---
+2015/07/03 15:25:05 [error] [exception.CException] exception 'CException' with message 'ServiceTypeController cannot find the requested view "detail".' in C:\xampp\htdocs\posnail\lib\yii\web\CController.php:879
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(783): CController->renderPartial('detail', Array, true)
+#1 C:\xampp\htdocs\posnail\protected\modules\admin\controllers\ServiceTypeController.php(79): CController->render('detail', Array)
+#2 [internal function]: ServiceTypeController->actionDetail('6')
+#3 C:\xampp\htdocs\posnail\lib\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ServiceTypeController), Array)
+#4 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ServiceTypeController), Object(ReflectionMethod), Array)
+#5 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#8 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\posnail\lib\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(292): CFilterChain->run()
+#12 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('detail')
+#14 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('admin/serviceTy...')
+#15 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\posnail\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/posnail/admin/serviceType/detail/6
+HTTP_REFERER=http://localhost:81/posnail/admin/serviceType/index
+---
+2015/07/03 15:25:22 [error] [exception.CException] exception 'CException' with message 'ServiceController cannot find the requested view "detail".' in C:\xampp\htdocs\posnail\lib\yii\web\CController.php:879
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(783): CController->renderPartial('detail', Array, true)
+#1 C:\xampp\htdocs\posnail\protected\modules\admin\controllers\ServiceController.php(79): CController->render('detail', Array)
+#2 [internal function]: ServiceController->actionDetail('2')
+#3 C:\xampp\htdocs\posnail\lib\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ServiceController), Array)
+#4 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ServiceController), Object(ReflectionMethod), Array)
+#5 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#8 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\posnail\lib\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(292): CFilterChain->run()
+#12 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('detail')
+#14 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('admin/service/d...')
+#15 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\posnail\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/posnail/admin/service/detail/2
+HTTP_REFERER=http://localhost:81/posnail/admin/customer/index
+---
+2015/07/03 15:30:36 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\posnail\lib\yii\web\CController.php:337
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\posnail\lib\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(292): CFilterChain->run()
+#7 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('detail')
+#9 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('admin/service/d...')
+#10 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\posnail\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/posnail/admin/service/detail/SV2
+HTTP_REFERER=http://localhost:81/posnail/admin/customer/index
+---
+2015/07/03 15:30:46 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\posnail\lib\yii\web\CController.php:337
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\posnail\lib\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(292): CFilterChain->run()
+#7 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('detail')
+#9 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('admin/service/d...')
+#10 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\posnail\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/posnail/admin/service/detail/SV2
+HTTP_REFERER=http://localhost:81/posnail/admin/customer/index
+---
+2015/07/03 15:37:07 [error] [php] Undefined variable: data (C:\xampp\htdocs\posnail\protected\modules\admin\views\customer\__detail.php:52)
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(870): CustomerController->renderFile()
+#1 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(783): CustomerController->renderPartial()
+#2 C:\xampp\htdocs\posnail\protected\modules\admin\controllers\CustomerController.php(79): CustomerController->render()
+#3 unknown(0): CustomerController->actionDetail()
+#4 C:\xampp\htdocs\posnail\lib\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#5 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(134): CustomerController->runAction()
+#8 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#9 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(1146): CAccessControlFilter->filter()
+#10 C:\xampp\htdocs\posnail\lib\yii\web\filters\CInlineFilter.php(59): CustomerController->filterAccessControl()
+#11 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#12 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(292): CFilterChain->run()
+#13 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CustomerController->runActionWithFilters()
+#14 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CustomerController->run()
+#15 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#16 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\posnail\index.php(13): CWebApplication->run()
+REQUEST_URI=/posnail/admin/customer/detail/SV2
+in C:\xampp\htdocs\posnail\protected\modules\admin\views\customer\__detail.php (52)
+in C:\xampp\htdocs\posnail\protected\modules\admin\controllers\CustomerController.php (79)
+in C:\xampp\htdocs\posnail\index.php (13)
+2015/07/03 15:37:08 [error] [php] Undefined variable: data (C:\xampp\htdocs\posnail\protected\modules\admin\views\customer\__detail.php:52)
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(870): CustomerController->renderFile()
+#1 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(783): CustomerController->renderPartial()
+#2 C:\xampp\htdocs\posnail\protected\modules\admin\controllers\CustomerController.php(79): CustomerController->render()
+#3 unknown(0): CustomerController->actionDetail()
+#4 C:\xampp\htdocs\posnail\lib\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#5 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(134): CustomerController->runAction()
+#8 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#9 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(1146): CAccessControlFilter->filter()
+#10 C:\xampp\htdocs\posnail\lib\yii\web\filters\CInlineFilter.php(59): CustomerController->filterAccessControl()
+#11 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#12 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(292): CFilterChain->run()
+#13 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CustomerController->runActionWithFilters()
+#14 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CustomerController->run()
+#15 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#16 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\posnail\index.php(13): CWebApplication->run()
+REQUEST_URI=/posnail/admin/customer/detail/SV2
+in C:\xampp\htdocs\posnail\protected\modules\admin\views\customer\__detail.php (52)
+in C:\xampp\htdocs\posnail\protected\modules\admin\controllers\CustomerController.php (79)
+in C:\xampp\htdocs\posnail\index.php (13)
+2015/07/03 15:41:18 [error] [exception.CException] exception 'CException' with message 'ServiceController cannot find the requested view "detail".' in C:\xampp\htdocs\posnail\lib\yii\web\CController.php:879
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(783): CController->renderPartial('detail', Array, true)
+#1 C:\xampp\htdocs\posnail\protected\modules\admin\controllers\ServiceController.php(79): CController->render('detail', Array)
+#2 [internal function]: ServiceController->actionDetail('3')
+#3 C:\xampp\htdocs\posnail\lib\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ServiceController), Array)
+#4 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ServiceController), Object(ReflectionMethod), Array)
+#5 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#8 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\posnail\lib\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(292): CFilterChain->run()
+#12 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('detail')
+#14 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('admin/service/d...')
+#15 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\posnail\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/posnail/admin/service/detail/3
+HTTP_REFERER=http://localhost:81/posnail/admin/service/index
+---
+2015/07/03 15:43:10 [error] [exception.CException] exception 'CException' with message 'Property "Reference.s_username" is not defined.' in C:\xampp\htdocs\posnail\lib\yii\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\db\ar\CActiveRecord.php(144): CComponent->__get('s_username')
+#1 C:\xampp\htdocs\posnail\lib\yii\web\helpers\CHtml.php(2158): CActiveRecord->__get('s_username')
+#2 C:\xampp\htdocs\posnail\lib\yii\web\helpers\CHtml.php(1887): CHtml::resolveValue(Object(Reference), 's_username')
+#3 C:\xampp\htdocs\posnail\lib\yii\web\helpers\CHtml.php(1217): CHtml::activeInputField('text', Object(Reference), 's_username', Array)
+#4 C:\xampp\htdocs\posnail\lib\yii\zii\widgets\grid\CDataColumn.php(98): CHtml::activeTextField(Object(Reference), 's_username', Array)
+#5 C:\xampp\htdocs\posnail\lib\yii\zii\widgets\grid\CGridColumn.php(110): CDataColumn->renderFilterCellContent()
+#6 C:\xampp\htdocs\posnail\lib\yii\zii\widgets\grid\CGridView.php(477): CGridColumn->renderFilterCell()
+#7 C:\xampp\htdocs\posnail\lib\yii\zii\widgets\grid\CGridView.php(455): CGridView->renderFilter()
+#8 C:\xampp\htdocs\posnail\lib\yii\zii\widgets\grid\CGridView.php(425): CGridView->renderTableHeader()
+#9 C:\xampp\htdocs\posnail\lib\yii\zii\widgets\CBaseListView.php(161): CGridView->renderItems()
+#10 [internal function]: CBaseListView->renderSection(Array)
+#11 C:\xampp\htdocs\posnail\lib\yii\zii\widgets\CBaseListView.php(144): preg_replace_callback('/{(\\w+)}/', Array, '{summary}\n{item...')
+#12 C:\xampp\htdocs\posnail\lib\yii\zii\widgets\CBaseListView.php(129): CBaseListView->renderContent()
+#13 C:\xampp\htdocs\posnail\lib\yii\web\CBaseController.php(174): CBaseListView->run()
+#14 C:\xampp\htdocs\posnail\protected\modules\admin\views\configs\__index.php(93): CBaseController->widget('zii.widgets.gri...', Array)
+#15 C:\xampp\htdocs\posnail\lib\yii\web\CBaseController.php(127): require('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\posnail\lib\yii\web\CBaseController.php(96): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#17 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(870): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#18 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(783): CController->renderPartial('__index', Array, true)
+#19 C:\xampp\htdocs\posnail\protected\modules\admin\controllers\ConfigsController.php(70): CController->render('__index', Array)
+#20 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(50): ConfigsController->actionIndex()
+#21 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#22 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#23 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#24 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#25 C:\xampp\htdocs\posnail\lib\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#26 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#27 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(292): CFilterChain->run()
+#28 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#29 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('')
+#30 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('admin/configs')
+#31 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#32 C:\xampp\htdocs\posnail\index.php(13): CApplication->run()
+#33 {main}
+REQUEST_URI=/posnail/admin/configs
+HTTP_REFERER=http://localhost:81/posnail/admin/customer/index
+---
+2015/07/03 15:51:03 [error] [exception.CException] exception 'CException' with message 'ServiceTypeController cannot find the requested view "detail".' in C:\xampp\htdocs\posnail\lib\yii\web\CController.php:879
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(783): CController->renderPartial('detail', Array, true)
+#1 C:\xampp\htdocs\posnail\protected\modules\admin\controllers\ServiceTypeController.php(79): CController->render('detail', Array)
+#2 [internal function]: ServiceTypeController->actionDetail('6')
+#3 C:\xampp\htdocs\posnail\lib\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ServiceTypeController), Array)
+#4 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ServiceTypeController), Object(ReflectionMethod), Array)
+#5 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#8 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\posnail\lib\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(292): CFilterChain->run()
+#12 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('detail')
+#14 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('admin/serviceTy...')
+#15 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\posnail\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/posnail/admin/serviceType/detail/6
+HTTP_REFERER=http://localhost:81/posnail/admin/serviceType/index
+---
+2015/07/03 15:53:55 [error] [php] Undefined variable: alias (C:\xampp\htdocs\posnail\protected\modules\admin\controllers\ServiceTypeController.php:74)
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(134): ServiceTypeController->runAction()
+#3 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#4 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(1146): CAccessControlFilter->filter()
+#5 C:\xampp\htdocs\posnail\lib\yii\web\filters\CInlineFilter.php(59): ServiceTypeController->filterAccessControl()
+#6 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(292): CFilterChain->run()
+#8 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): ServiceTypeController->runActionWithFilters()
+#9 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): ServiceTypeController->run()
+#10 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#11 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\posnail\index.php(13): CWebApplication->run()
+REQUEST_URI=/posnail/admin/serviceType/detail/6
+in C:\xampp\htdocs\posnail\protected\modules\admin\controllers\ServiceTypeController.php (74)
+in C:\xampp\htdocs\posnail\index.php (13)
+2015/07/03 15:54:03 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\posnail\lib\yii\web\CController.php:337
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\posnail\lib\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(292): CFilterChain->run()
+#7 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('detail')
+#9 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('admin/serviceTy...')
+#10 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\posnail\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/posnail/admin/serviceType/detail/6
+HTTP_REFERER=http://localhost:81/posnail/admin/serviceType/index
+---
+2015/07/03 15:54:28 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\posnail\lib\yii\web\CController.php:337
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\posnail\lib\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(292): CFilterChain->run()
+#7 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('detail')
+#9 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('admin/serviceTy...')
+#10 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\posnail\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/posnail/admin/serviceType/detail/6
+HTTP_REFERER=http://localhost:81/posnail/admin/serviceType/index
+---
+2015/07/03 15:55:00 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\posnail\lib\yii\web\CController.php:337
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\posnail\lib\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(292): CFilterChain->run()
+#7 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('detail')
+#9 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('admin/serviceTy...')
+#10 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\posnail\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/posnail/admin/serviceType/detail/6
+HTTP_REFERER=http://localhost:81/posnail/admin/serviceType/index
+---
+2015/07/03 15:55:01 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\posnail\lib\yii\web\CController.php:337
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\posnail\lib\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(292): CFilterChain->run()
+#7 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('detail')
+#9 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('admin/serviceTy...')
+#10 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\posnail\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/posnail/admin/serviceType/detail/6
+HTTP_REFERER=http://localhost:81/posnail/admin/serviceType/index
+---
+2015/07/03 15:55:01 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\posnail\lib\yii\web\CController.php:337
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\posnail\lib\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(292): CFilterChain->run()
+#7 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('detail')
+#9 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('admin/serviceTy...')
+#10 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\posnail\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/posnail/admin/serviceType/detail/6
+HTTP_REFERER=http://localhost:81/posnail/admin/serviceType/index
+---
+2015/07/03 15:55:01 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\posnail\lib\yii\web\CController.php:337
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\posnail\lib\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(292): CFilterChain->run()
+#7 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('detail')
+#9 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('admin/serviceTy...')
+#10 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\posnail\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/posnail/admin/serviceType/detail/6
+HTTP_REFERER=http://localhost:81/posnail/admin/serviceType/index
+---
+2015/07/03 15:55:01 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\posnail\lib\yii\web\CController.php:337
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\posnail\lib\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(292): CFilterChain->run()
+#7 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('detail')
+#9 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('admin/serviceTy...')
+#10 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\posnail\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/posnail/admin/serviceType/detail/6
+HTTP_REFERER=http://localhost:81/posnail/admin/serviceType/index
+---
+2015/07/03 15:55:17 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[21000]: Cardinality violation: 1241 Operand should contain 1 column(s). The SQL statement executed was: SELECT * FROM `service` `t` WHERE ( i_flag_deleted = 0 ) AND (s_service_type_id = :s_service_type_id, s_store_id = :s_store_id) ORDER BY i_updated DESC.
+in C:\xampp\htdocs\posnail\protected\modules\admin\controllers\ServiceTypeController.php (76)
+in C:\xampp\htdocs\posnail\index.php (13)
+2015/07/03 15:55:17 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[21000]: Cardinality violation: 1241 Operand should contain 1 column(s). The SQL statement executed was: SELECT * FROM `service` `t` WHERE ( i_flag_deleted = 0 ) AND (s_service_type_id = :s_service_type_id, s_store_id = :s_store_id) ORDER BY i_updated DESC' in C:\xampp\htdocs\posnail\lib\yii\db\CDbCommand.php:528
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\posnail\lib\yii\db\ar\CActiveRecord.php(1291): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\posnail\lib\yii\db\ar\CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\xampp\htdocs\posnail\protected\modules\admin\controllers\ServiceTypeController.php(76): CActiveRecord->findAll('s_service_type_...', Array)
+#4 [internal function]: ServiceTypeController->actionDetail('SV6')
+#5 C:\xampp\htdocs\posnail\lib\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ServiceTypeController), Array)
+#6 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ServiceTypeController), Object(ReflectionMethod), Array)
+#7 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#10 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\posnail\lib\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(292): CFilterChain->run()
+#14 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('detail')
+#16 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('admin/serviceTy...')
+#17 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\posnail\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/posnail/admin/serviceType/detail/SV6
+HTTP_REFERER=http://localhost:81/posnail/admin/serviceType/index
+---
+2015/07/03 16:02:04 [error] [exception.CException] exception 'CException' with message 'ServiceController cannot find the requested view "detail".' in C:\xampp\htdocs\posnail\lib\yii\web\CController.php:879
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(783): CController->renderPartial('detail', Array, true)
+#1 C:\xampp\htdocs\posnail\protected\modules\admin\controllers\ServiceController.php(79): CController->render('detail', Array)
+#2 [internal function]: ServiceController->actionDetail('3')
+#3 C:\xampp\htdocs\posnail\lib\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ServiceController), Array)
+#4 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ServiceController), Object(ReflectionMethod), Array)
+#5 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#8 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\posnail\lib\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(292): CFilterChain->run()
+#12 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('detail')
+#14 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('admin/service/d...')
+#15 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\posnail\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/posnail/admin/service/detail/3
+HTTP_REFERER=http://localhost:81/posnail/admin/service/index
+---
+2015/07/03 16:02:54 [error] [exception.CException] exception 'CException' with message 'ServiceController cannot find the requested view "detail".' in C:\xampp\htdocs\posnail\lib\yii\web\CController.php:879
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(783): CController->renderPartial('detail', Array, true)
+#1 C:\xampp\htdocs\posnail\protected\modules\admin\controllers\ServiceController.php(79): CController->render('detail', Array)
+#2 [internal function]: ServiceController->actionDetail('2')
+#3 C:\xampp\htdocs\posnail\lib\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ServiceController), Array)
+#4 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ServiceController), Object(ReflectionMethod), Array)
+#5 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#8 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\posnail\lib\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(292): CFilterChain->run()
+#12 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('detail')
+#14 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('admin/service/d...')
+#15 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\posnail\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/posnail/admin/service/detail/2
+HTTP_REFERER=http://localhost:81/posnail/admin/service/index
+---
+2015/07/03 16:04:10 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\posnail\lib\yii\web\CController.php:337
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\posnail\lib\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(292): CFilterChain->run()
+#7 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('detail')
+#9 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('admin/user/deta...')
+#10 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\posnail\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/posnail/admin/user/detail/18
+HTTP_REFERER=http://localhost:81/posnail/admin/site/index
+---
+2015/07/08 13:08:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/login".' in C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('admin/login')
+#1 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\posnail\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/posnail/admin/login
+HTTP_REFERER=http://localhost:81/posnail/admin/site/index
+---
+2015/07/08 13:29:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "forgetpasswd".' in C:\xampp\htdocs\posnail\lib\yii\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(271): CController->missingAction('forgetpasswd')
+#1 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('forgetpasswd')
+#2 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('admin/site/forg...')
+#3 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\posnail\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/posnail/admin/site/forgetpasswd
+HTTP_REFERER=http://localhost:81/posnail/admin/site/login
+---
+2015/07/08 13:29:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "forgetpasswd".' in C:\xampp\htdocs\posnail\lib\yii\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(271): CController->missingAction('forgetpasswd')
+#1 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('forgetpasswd')
+#2 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('admin/site/forg...')
+#3 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\posnail\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/posnail/admin/site/forgetpasswd
+HTTP_REFERER=http://localhost:81/posnail/admin/site/login
+---
+2015/07/08 13:29:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "forgetpasswd".' in C:\xampp\htdocs\posnail\lib\yii\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(271): CController->missingAction('forgetpasswd')
+#1 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('forgetpasswd')
+#2 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('admin/site/forg...')
+#3 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\posnail\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/posnail/admin/site/forgetpasswd
+HTTP_REFERER=http://localhost:81/posnail/admin/site/login
+---
+2015/07/08 13:56:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "forgetpassed".' in C:\xampp\htdocs\posnail\lib\yii\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(271): CController->missingAction('forgetpassed')
+#1 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('forgetpassed')
+#2 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('admin/site/forg...')
+#3 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\posnail\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/posnail/admin/site/forgetpassed
+---
+2015/07/08 15:20:28 [error] [exception.CException] exception 'CException' with message 'Property "CCaptcha.CCaptchaAction" is not defined.' in C:\xampp\htdocs\posnail\lib\yii\base\CComponent.php:174
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CWidgetFactory.php(162): CComponent->__set('CCaptchaAction', 'site/captcha')
+#1 C:\xampp\htdocs\posnail\lib\yii\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(SiteController), 'CCaptcha', Array)
+#2 C:\xampp\htdocs\posnail\lib\yii\web\CBaseController.php(173): CBaseController->createWidget('CCaptcha', Array)
+#3 C:\xampp\htdocs\posnail\protected\modules\admin\views\site\forgetpasswd.php(12): CBaseController->widget('CCaptcha', Array)
+#4 C:\xampp\htdocs\posnail\lib\yii\web\CBaseController.php(127): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\posnail\lib\yii\web\CBaseController.php(96): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(870): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(783): CController->renderPartial('forgetpasswd', Array, true)
+#8 C:\xampp\htdocs\posnail\protected\modules\admin\controllers\SiteController.php(215): CController->render('forgetpasswd', Array)
+#9 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionForgetpasswd()
+#10 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#13 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\posnail\lib\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(292): CFilterChain->run()
+#17 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('forgetpasswd')
+#19 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('admin/site/forg...')
+#20 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\posnail\index.php(24): CApplication->run()
+#22 {main}
+REQUEST_URI=/posnail/admin/site/forgetpasswd
+HTTP_REFERER=http://localhost:81/posnail/admin/site/login
+---
+2015/07/08 15:29:52 [error] [php] Object of class CCaptcha could not be converted to string (C:\xampp\htdocs\posnail\protected\modules\admin\views\site\forgetpasswd.php:12)
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\posnail\protected\modules\admin\controllers\SiteController.php(215): SiteController->render()
+#3 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionForgetpasswd()
+#4 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(134): SiteController->runAction()
+#6 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#7 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(1146): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\posnail\lib\yii\web\filters\CInlineFilter.php(59): SiteController->filterAccessControl()
+#9 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(292): CFilterChain->run()
+#11 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): SiteController->runActionWithFilters()
+#12 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): SiteController->run()
+#13 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#14 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\posnail\index.php(24): CWebApplication->run()
+REQUEST_URI=/posnail/admin/site/forgetpasswd
+in C:\xampp\htdocs\posnail\protected\modules\admin\views\site\forgetpasswd.php (12)
+in C:\xampp\htdocs\posnail\protected\modules\admin\controllers\SiteController.php (215)
+in C:\xampp\htdocs\posnail\index.php (24)
+2015/07/08 16:56:17 [error] [exception.CException] exception 'CException' with message 'Property "YiiMail.host" is not defined.' in C:\xampp\htdocs\posnail\lib\yii\base\CComponent.php:174
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\YiiBase.php(222): CComponent->__set('host', 'smtp.gmail.com')
+#1 C:\xampp\htdocs\posnail\lib\yii\base\CModule.php(387): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\posnail\lib\yii\base\CModule.php(104): CModule->getComponent('mail')
+#3 C:\xampp\htdocs\posnail\protected\extensions\yiimail\YiiMailMessage.php(112): CModule->__get('mail')
+#4 C:\xampp\htdocs\posnail\protected\modules\admin\controllers\SiteController.php(237): YiiMailMessage->__construct()
+#5 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionForgetpasswd()
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#9 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\posnail\lib\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(292): CFilterChain->run()
+#13 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('forgetpasswd')
+#15 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('admin/site/forg...')
+#16 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\posnail\index.php(24): CApplication->run()
+#18 {main}
+REQUEST_URI=/posnail/admin/site/forgetpasswd
+HTTP_REFERER=http://localhost:81/posnail/admin/site/forgetpasswd
+---
+2015/07/09 08:16:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "passwordReset/9317e72ceda7d6ec6a0868daa8868e618cafa0b7|aHNvbjkxQGdtYWlsLmNvbQ==".' in C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('passwordReset/9...')
+#1 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\posnail\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/posnail/passwordReset/9317e72ceda7d6ec6a0868daa8868e618cafa0b7%7CaHNvbjkxQGdtYWlsLmNvbQ%3D%3D
+---
+2015/07/09 08:16:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "passwordReset/images/websites".' in C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('passwordReset/i...')
+#1 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\posnail\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/posnail/passwordReset/images/websites/logo_itech.png
+HTTP_REFERER=http://localhost:81/posnail/passwordReset/9317e72ceda7d6ec6a0868daa8868e618cafa0b7%7CaHNvbjkxQGdtYWlsLmNvbQ%3D%3D
+---
+2015/07/09 08:17:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "passwordReset/9317e72ceda7d6ec6a0868daa8868e618cafa0b7|aHNvbjkxQGdtYWlsLmNvbQ==".' in C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('passwordReset/9...')
+#1 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\posnail\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/posnail/passwordReset/9317e72ceda7d6ec6a0868daa8868e618cafa0b7%7CaHNvbjkxQGdtYWlsLmNvbQ%3D%3D
+---
+2015/07/09 08:17:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "passwordReset/images/websites".' in C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('passwordReset/i...')
+#1 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\posnail\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/posnail/passwordReset/images/websites/logo_itech.png
+HTTP_REFERER=http://localhost:81/posnail/passwordReset/9317e72ceda7d6ec6a0868daa8868e618cafa0b7%7CaHNvbjkxQGdtYWlsLmNvbQ%3D%3D
+---
+2015/07/09 08:17:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "passwordReset/9317e72ceda7d6ec6a0868daa8868e618cafa0b7|aHNvbjkxQGdtYWlsLmNvbQ==".' in C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('passwordReset/9...')
+#1 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\posnail\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/posnail/passwordReset/9317e72ceda7d6ec6a0868daa8868e618cafa0b7%7CaHNvbjkxQGdtYWlsLmNvbQ%3D%3D
+---
+2015/07/09 08:17:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "passwordReset/images/websites".' in C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('passwordReset/i...')
+#1 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\posnail\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/posnail/passwordReset/images/websites/logo_itech.png
+HTTP_REFERER=http://localhost:81/posnail/passwordReset/9317e72ceda7d6ec6a0868daa8868e618cafa0b7%7CaHNvbjkxQGdtYWlsLmNvbQ%3D%3D
+---
+2015/07/09 08:20:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "passwordReset/9317e72ceda7d6ec6a0868daa8868e618cafa0b7|aHNvbjkxQGdtYWlsLmNvbQ==".' in C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('passwordReset/9...')
+#1 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\posnail\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/posnail/passwordReset/9317e72ceda7d6ec6a0868daa8868e618cafa0b7%7CaHNvbjkxQGdtYWlsLmNvbQ%3D%3D
+---
+2015/07/09 08:20:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "passwordReset/images/websites".' in C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('passwordReset/i...')
+#1 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\posnail\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/posnail/passwordReset/images/websites/logo_itech.png
+HTTP_REFERER=http://localhost:81/posnail/passwordReset/9317e72ceda7d6ec6a0868daa8868e618cafa0b7%7CaHNvbjkxQGdtYWlsLmNvbQ%3D%3D
+---
+2015/07/09 08:20:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "passwordReset/9317e72ceda7d6ec6a0868daa8868e618cafa0b7|aHNvbjkxQGdtYWlsLmNvbQ==".' in C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('passwordReset/9...')
+#1 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\posnail\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/posnail/passwordReset/9317e72ceda7d6ec6a0868daa8868e618cafa0b7%7CaHNvbjkxQGdtYWlsLmNvbQ%3D%3D
+---
+2015/07/09 08:20:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "passwordReset/images/websites".' in C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('passwordReset/i...')
+#1 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\posnail\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/posnail/passwordReset/images/websites/logo_itech.png
+HTTP_REFERER=http://localhost:81/posnail/passwordReset/9317e72ceda7d6ec6a0868daa8868e618cafa0b7%7CaHNvbjkxQGdtYWlsLmNvbQ%3D%3D
+---
+2015/07/09 08:20:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "<module>/site/passwordReset".' in C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('<module>/site/p...')
+#1 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\posnail\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/posnail/passwordReset/9317e72ceda7d6ec6a0868daa8868e618cafa0b7%7CaHNvbjkxQGdtYWlsLmNvbQ%3D%3D
+---
+2015/07/09 08:20:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "<module>/site/passwordReset".' in C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('<module>/site/p...')
+#1 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\posnail\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/posnail/passwordReset/images/websites/logo_itech.png
+HTTP_REFERER=http://localhost:81/posnail/passwordReset/9317e72ceda7d6ec6a0868daa8868e618cafa0b7%7CaHNvbjkxQGdtYWlsLmNvbQ%3D%3D
+---
+2015/07/09 08:21:07 [error] [php] Undefined variable: user (C:\xampp\htdocs\posnail\protected\modules\admin\controllers\SiteController.php:210)
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(134): SiteController->runAction()
+#3 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#4 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(1146): CAccessControlFilter->filter()
+#5 C:\xampp\htdocs\posnail\lib\yii\web\filters\CInlineFilter.php(59): SiteController->filterAccessControl()
+#6 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(292): CFilterChain->run()
+#8 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): SiteController->runActionWithFilters()
+#9 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): SiteController->run()
+#10 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#11 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\posnail\index.php(24): CWebApplication->run()
+REQUEST_URI=/posnail/passwordReset/9317e72ceda7d6ec6a0868daa8868e618cafa0b7%7CaHNvbjkxQGdtYWlsLmNvbQ%3D%3D
+in C:\xampp\htdocs\posnail\protected\modules\admin\controllers\SiteController.php (210)
+in C:\xampp\htdocs\posnail\index.php (24)
+2015/07/09 08:23:51 [error] [exception.CException] exception 'CException' with message 'Property "User.email" is not defined.' in C:\xampp\htdocs\posnail\lib\yii\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\db\ar\CActiveRecord.php(144): CComponent->__get('email')
+#1 C:\xampp\htdocs\posnail\protected\modules\admin\views\site\changepasswd.php(8): CActiveRecord->__get('email')
+#2 C:\xampp\htdocs\posnail\lib\yii\web\CBaseController.php(127): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\posnail\lib\yii\web\CBaseController.php(96): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(870): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(783): CController->renderPartial('changepasswd', Array, true)
+#6 C:\xampp\htdocs\posnail\protected\modules\admin\controllers\SiteController.php(255): CController->render('changepasswd', Array)
+#7 [internal function]: SiteController->actionPasswordReset('9317e72ceda7d6e...')
+#8 C:\xampp\htdocs\posnail\lib\yii\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#9 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#10 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#13 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\posnail\lib\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(292): CFilterChain->run()
+#17 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('passwordReset')
+#19 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('admin/site/pass...')
+#20 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\posnail\index.php(24): CApplication->run()
+#22 {main}
+REQUEST_URI=/posnail/passwordReset/9317e72ceda7d6ec6a0868daa8868e618cafa0b7%7CaHNvbjkxQGdtYWlsLmNvbQ%3D%3D
+---
+2015/07/09 08:28:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/login".' in C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('admin/login')
+#1 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\posnail\index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/posnail/admin/login
+HTTP_REFERER=http://localhost:81/posnail/passwordReset/9317e72ceda7d6ec6a0868daa8868e618cafa0b7%7CaHNvbjkxQGdtYWlsLmNvbQ%3D%3D?USER%5BTOKEN_ID%5D=87e94d4e410ca5b6ffc036a27ec41eb97ce9c3ac&USER%5BTOKEN_CODE%5D=9317e72ceda7d6ec6a0868daa8868e618cafa0b7&USER%5BUSER_PASSWD%5D=12345&USER%5BUSER_PASSWD_CONFIRM%5D=12345678
+---
+2015/07/09 08:51:18 [error] [php] include(Users.php): failed to open stream: No such file or directory (C:\xampp\htdocs\posnail\lib\yii\YiiBase.php:423)
+Stack trace:
+#0 C:\xampp\htdocs\posnail\protected\modules\admin\controllers\SiteController.php(120): spl_autoload_call()
+#1 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionProfiles()
+#2 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(134): SiteController->runAction()
+#4 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#5 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(1146): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\posnail\lib\yii\web\filters\CInlineFilter.php(59): SiteController->filterAccessControl()
+#7 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#8 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(292): CFilterChain->run()
+#9 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): SiteController->runActionWithFilters()
+#10 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): SiteController->run()
+#11 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#12 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\posnail\index.php(24): CWebApplication->run()
+REQUEST_URI=/posnail/admin/site/profiles
+in C:\xampp\htdocs\posnail\protected\modules\admin\controllers\SiteController.php (120)
+in C:\xampp\htdocs\posnail\index.php (24)
+2015/07/09 08:56:32 [error] [exception.CException] exception 'CException' with message 'Property "User.fullname" is not defined.' in C:\xampp\htdocs\posnail\lib\yii\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\db\ar\CActiveRecord.php(144): CComponent->__get('fullname')
+#1 C:\xampp\htdocs\posnail\lib\yii\web\helpers\CHtml.php(2158): CActiveRecord->__get('fullname')
+#2 C:\xampp\htdocs\posnail\lib\yii\web\helpers\CHtml.php(1887): CHtml::resolveValue(Object(User), 'fullname')
+#3 C:\xampp\htdocs\posnail\lib\yii\web\helpers\CHtml.php(1217): CHtml::activeInputField('text', Object(User), 'fullname', Array)
+#4 C:\xampp\htdocs\posnail\lib\yii\web\widgets\CActiveForm.php(658): CHtml::activeTextField(Object(User), 'fullname', Array)
+#5 C:\xampp\htdocs\posnail\protected\modules\admin\views\site\profiles.php(27): CActiveForm->textField(Object(User), 'fullname', Array)
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CBaseController.php(127): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\posnail\lib\yii\web\CBaseController.php(96): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(870): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(783): CController->renderPartial('profiles', Array, true)
+#10 C:\xampp\htdocs\posnail\protected\modules\admin\controllers\SiteController.php(179): CController->render('profiles', Array)
+#11 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionProfiles()
+#12 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#15 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\posnail\lib\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(292): CFilterChain->run()
+#19 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('profiles')
+#21 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('admin/site/prof...')
+#22 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\posnail\index.php(24): CApplication->run()
+#24 {main}
+REQUEST_URI=/posnail/admin/site/profiles
+HTTP_REFERER=http://localhost:81/posnail/admin
+---
+2015/07/09 08:56:33 [error] [exception.CException] exception 'CException' with message 'Property "User.fullname" is not defined.' in C:\xampp\htdocs\posnail\lib\yii\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\db\ar\CActiveRecord.php(144): CComponent->__get('fullname')
+#1 C:\xampp\htdocs\posnail\lib\yii\web\helpers\CHtml.php(2158): CActiveRecord->__get('fullname')
+#2 C:\xampp\htdocs\posnail\lib\yii\web\helpers\CHtml.php(1887): CHtml::resolveValue(Object(User), 'fullname')
+#3 C:\xampp\htdocs\posnail\lib\yii\web\helpers\CHtml.php(1217): CHtml::activeInputField('text', Object(User), 'fullname', Array)
+#4 C:\xampp\htdocs\posnail\lib\yii\web\widgets\CActiveForm.php(658): CHtml::activeTextField(Object(User), 'fullname', Array)
+#5 C:\xampp\htdocs\posnail\protected\modules\admin\views\site\profiles.php(27): CActiveForm->textField(Object(User), 'fullname', Array)
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CBaseController.php(127): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\posnail\lib\yii\web\CBaseController.php(96): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(870): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(783): CController->renderPartial('profiles', Array, true)
+#10 C:\xampp\htdocs\posnail\protected\modules\admin\controllers\SiteController.php(179): CController->render('profiles', Array)
+#11 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionProfiles()
+#12 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#15 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\posnail\lib\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(292): CFilterChain->run()
+#19 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('profiles')
+#21 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('admin/site/prof...')
+#22 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\posnail\index.php(24): CApplication->run()
+#24 {main}
+REQUEST_URI=/posnail/admin/site/profiles
+HTTP_REFERER=http://localhost:81/posnail/admin
+---
+2015/07/09 08:56:34 [error] [exception.CException] exception 'CException' with message 'Property "User.fullname" is not defined.' in C:\xampp\htdocs\posnail\lib\yii\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\db\ar\CActiveRecord.php(144): CComponent->__get('fullname')
+#1 C:\xampp\htdocs\posnail\lib\yii\web\helpers\CHtml.php(2158): CActiveRecord->__get('fullname')
+#2 C:\xampp\htdocs\posnail\lib\yii\web\helpers\CHtml.php(1887): CHtml::resolveValue(Object(User), 'fullname')
+#3 C:\xampp\htdocs\posnail\lib\yii\web\helpers\CHtml.php(1217): CHtml::activeInputField('text', Object(User), 'fullname', Array)
+#4 C:\xampp\htdocs\posnail\lib\yii\web\widgets\CActiveForm.php(658): CHtml::activeTextField(Object(User), 'fullname', Array)
+#5 C:\xampp\htdocs\posnail\protected\modules\admin\views\site\profiles.php(27): CActiveForm->textField(Object(User), 'fullname', Array)
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CBaseController.php(127): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\posnail\lib\yii\web\CBaseController.php(96): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(870): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(783): CController->renderPartial('profiles', Array, true)
+#10 C:\xampp\htdocs\posnail\protected\modules\admin\controllers\SiteController.php(179): CController->render('profiles', Array)
+#11 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionProfiles()
+#12 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#15 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\posnail\lib\yii\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(292): CFilterChain->run()
+#19 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('profiles')
+#21 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('admin/site/prof...')
+#22 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\posnail\index.php(24): CApplication->run()
+#24 {main}
+REQUEST_URI=/posnail/admin/site/profiles
+HTTP_REFERER=http://localhost:81/posnail/admin
+---
+2015/07/09 09:05:56 [error] [php] Undefined index: Users (C:\xampp\htdocs\posnail\protected\modules\admin\controllers\SiteController.php:128)
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(134): SiteController->runAction()
+#1 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilter.php(41): CFilterChain->run()
+#2 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(1146): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\posnail\lib\yii\web\filters\CInlineFilter.php(59): SiteController->filterAccessControl()
+#4 C:\xampp\htdocs\posnail\lib\yii\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#5 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(292): CFilterChain->run()
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\posnail\index.php(24): CWebApplication->run()
+REQUEST_URI=/posnail/admin/site/profiles
+in C:\xampp\htdocs\posnail\protected\modules\admin\controllers\SiteController.php (128)
+in C:\xampp\htdocs\posnail\index.php (24)
+2015/07/09 09:52:10 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\posnail\protected\controllers\ApiController.php:185)
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(287): ApiController->runAction()
+#1 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): ApiController->runActionWithFilters()
+#2 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): ApiController->run()
+#3 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\posnail\index.php(24): CWebApplication->run()
+REQUEST_URI=/posnail/api/sync
+in C:\xampp\htdocs\posnail\protected\controllers\ApiController.php (185)
+in C:\xampp\htdocs\posnail\index.php (24)
+2015/07/09 10:03:13 [error] [exception.CException] exception 'CException' with message 'Property "Customer.i_update" is not defined.' in C:\xampp\htdocs\posnail\lib\yii\base\CComponent.php:174
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\db\ar\CActiveRecord.php(160): CComponent->__set('i_update', 0)
+#1 C:\xampp\htdocs\posnail\protected\controllers\ApiController.php(191): CActiveRecord->__set('i_update', 0)
+#2 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(50): ApiController->actionSync()
+#3 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('sync')
+#7 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('api/sync')
+#8 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\posnail\index.php(24): CApplication->run()
+#10 {main}
+REQUEST_URI=/posnail/api/sync
+---
+2015/07/09 11:59:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "text".' in C:\xampp\htdocs\posnail\lib\yii\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(271): CController->missingAction('text')
+#1 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('text')
+#2 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('api/text')
+#3 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\posnail\index.php(24): CApplication->run()
+#5 {main}
+REQUEST_URI=/posnail/api/text
+---
+2015/07/09 12:38:12 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 's_store_id' in 'where clause'. The SQL statement executed was: SELECT `pk_s_id`, `s_name`, `i_image_color`, `s_address`, `s_summary`, `i_is_trial`, `i_trial_from`, `i_trial_to`, `i_lock`, `s_description`, `s_latitude`, `s_longitude`, `i_flag_deleted`, `i_disable`, `i_status`, `i_inserted`, `i_updated`
+FROM `store`
+WHERE i_flag_sync = 1 AND s_store_id = :storeID.
+in C:\xampp\htdocs\posnail\protected\controllers\ApiController.php (395)
+in C:\xampp\htdocs\posnail\protected\controllers\ApiController.php (309)
+in C:\xampp\htdocs\posnail\protected\controllers\ApiController.php (237)
+2015/07/09 12:38:12 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 's_store_id' in 'where clause'. The SQL statement executed was: SELECT `pk_s_id`, `s_name`, `i_image_color`, `s_address`, `s_summary`, `i_is_trial`, `i_trial_from`, `i_trial_to`, `i_lock`, `s_description`, `s_latitude`, `s_longitude`, `i_flag_deleted`, `i_disable`, `i_status`, `i_inserted`, `i_updated`
+FROM `store`
+WHERE i_flag_sync = 1 AND s_store_id = :storeID' in C:\xampp\htdocs\posnail\lib\yii\db\CDbCommand.php:528
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\posnail\protected\controllers\ApiController.php(395): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\posnail\protected\controllers\ApiController.php(309): ApiController->getDataStoreSyncToMobile('SV2')
+#3 C:\xampp\htdocs\posnail\protected\controllers\ApiController.php(237): ApiController->getDataSyncToMobile('SV2')
+#4 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(50): ApiController->actionSync()
+#5 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('sync')
+#9 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('api/sync')
+#10 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\posnail\index.php(24): CApplication->run()
+#12 {main}
+REQUEST_URI=/posnail/api/sync
+---
+2015/07/10 09:12:35 [error] [php] Undefined index:  (C:\xampp\htdocs\posnail\protected\controllers\SiteController.php:24)
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(287): SiteController->runAction()
+#1 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): SiteController->run()
+#3 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\posnail\index.php(29): CWebApplication->run()
+REQUEST_URI=/posnail/
+in C:\xampp\htdocs\posnail\protected\controllers\SiteController.php (24)
+in C:\xampp\htdocs\posnail\index.php (29)
+2015/07/10 09:17:19 [error] [php] Undefined index: file (C:\xampp\htdocs\posnail\protected\controllers\SiteController.php:25)
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(287): SiteController->runAction()
+#1 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): SiteController->run()
+#3 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\posnail\index.php(29): CWebApplication->run()
+REQUEST_URI=/posnail/
+in C:\xampp\htdocs\posnail\protected\controllers\SiteController.php (25)
+in C:\xampp\htdocs\posnail\index.php (29)
+2015/07/10 09:17:34 [error] [php] DOMDocument::load(): Start tag expected, '&lt;' not found in file:///C:/xampp/tmp/php9D06.tmp, line: 1 (C:\xampp\htdocs\posnail\protected\controllers\SiteController.php:25)
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(287): SiteController->runAction()
+#2 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): SiteController->runActionWithFilters()
+#3 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): SiteController->run()
+#4 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#5 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\posnail\index.php(29): CWebApplication->run()
+REQUEST_URI=/posnail/
+in C:\xampp\htdocs\posnail\protected\controllers\SiteController.php (25)
+in C:\xampp\htdocs\posnail\index.php (29)
+2015/07/10 09:18:38 [error] [php] DOMDocument::load(): Start tag expected, '&lt;' not found in file:///C:/xampp/tmp/php96D8.tmp, line: 1 (C:\xampp\htdocs\posnail\protected\controllers\SiteController.php:25)
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(287): SiteController->runAction()
+#2 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): SiteController->runActionWithFilters()
+#3 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): SiteController->run()
+#4 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#5 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\posnail\index.php(29): CWebApplication->run()
+REQUEST_URI=/posnail/
+in C:\xampp\htdocs\posnail\protected\controllers\SiteController.php (25)
+in C:\xampp\htdocs\posnail\index.php (29)
+2015/07/10 09:24:45 [error] [php] include(PHPExcel_Shared_ZipStreamWrapper.php): failed to open stream: No such file or directory (C:\xampp\htdocs\posnail\lib\yii\YiiBase.php:423)
+Stack trace:
+#0 C:\xampp\htdocs\posnail\protected\extensions\phpexcel\PHPExcel\Autoloader.php(31): spl_autoload_call()
+#1 C:\xampp\htdocs\posnail\protected\extensions\phpexcel\PHPExcel.php(32): require()
+#2 C:\xampp\htdocs\posnail\lib\yii\YiiBase.php(397): include()
+#3 unknown(0): autoload()
+#4 C:\xampp\htdocs\posnail\protected\controllers\SiteController.php(25): spl_autoload_call()
+#5 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(287): SiteController->runAction()
+#8 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): SiteController->runActionWithFilters()
+#9 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): SiteController->run()
+#10 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#11 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\posnail\index.php(29): CWebApplication->run()
+REQUEST_URI=/posnail/
+in C:\xampp\htdocs\posnail\protected\extensions\phpexcel\PHPExcel\Autoloader.php (31)
+in C:\xampp\htdocs\posnail\protected\extensions\phpexcel\PHPExcel.php (32)
+in C:\xampp\htdocs\posnail\protected\controllers\SiteController.php (25)
+2015/07/10 09:31:12 [error] [php] include(Spreadsheet_Excel_Reader.php): failed to open stream: No such file or directory (C:\xampp\htdocs\posnail\lib\yii\YiiBase.php:423)
+Stack trace:
+#0 C:\xampp\htdocs\posnail\protected\controllers\SiteController.php(25): spl_autoload_call()
+#1 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#2 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(287): SiteController->runAction()
+#4 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): SiteController->runActionWithFilters()
+#5 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): SiteController->run()
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#7 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\posnail\index.php(29): CWebApplication->run()
+REQUEST_URI=/posnail/
+in C:\xampp\htdocs\posnail\protected\controllers\SiteController.php (25)
+in C:\xampp\htdocs\posnail\index.php (29)
+2015/07/10 09:41:28 [error] [php] include(Spreadsheet_Excel_Reader.php): failed to open stream: No such file or directory (C:\xampp\htdocs\posnail\lib\yii\YiiBase.php:423)
+Stack trace:
+#0 C:\xampp\htdocs\posnail\protected\controllers\SiteController.php(25): spl_autoload_call()
+#1 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#2 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(287): SiteController->runAction()
+#4 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): SiteController->runActionWithFilters()
+#5 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): SiteController->run()
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#7 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\posnail\index.php(29): CWebApplication->run()
+REQUEST_URI=/posnail/
+in C:\xampp\htdocs\posnail\protected\controllers\SiteController.php (25)
+in C:\xampp\htdocs\posnail\index.php (29)
+2015/07/10 09:44:00 [error] [php] include(Spreadsheet_Excel_Reader.php): failed to open stream: No such file or directory (C:\xampp\htdocs\posnail\lib\yii\YiiBase.php:423)
+Stack trace:
+#0 C:\xampp\htdocs\posnail\protected\controllers\SiteController.php(27): spl_autoload_call()
+#1 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#2 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(287): SiteController->runAction()
+#4 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): SiteController->runActionWithFilters()
+#5 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): SiteController->run()
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#7 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\posnail\index.php(29): CWebApplication->run()
+REQUEST_URI=/posnail/
+in C:\xampp\htdocs\posnail\protected\controllers\SiteController.php (27)
+in C:\xampp\htdocs\posnail\index.php (29)
+2015/07/10 09:45:03 [error] [php] include(Spreadsheet_Excel_Reader.php): failed to open stream: No such file or directory (C:\xampp\htdocs\posnail\lib\yii\YiiBase.php:423)
+Stack trace:
+#0 C:\xampp\htdocs\posnail\protected\controllers\SiteController.php(27): spl_autoload_call()
+#1 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#2 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(287): SiteController->runAction()
+#4 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): SiteController->runActionWithFilters()
+#5 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): SiteController->run()
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#7 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\posnail\index.php(29): CWebApplication->run()
+REQUEST_URI=/posnail/
+in C:\xampp\htdocs\posnail\protected\controllers\SiteController.php (27)
+in C:\xampp\htdocs\posnail\index.php (29)
+2015/07/10 09:46:49 [error] [php] include(Spreadsheet_Excel_Reader.php): failed to open stream: No such file or directory (C:\xampp\htdocs\posnail\lib\yii\YiiBase.php:423)
+Stack trace:
+#0 C:\xampp\htdocs\posnail\protected\controllers\SiteController.php(27): spl_autoload_call()
+#1 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#2 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(287): SiteController->runAction()
+#4 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): SiteController->runActionWithFilters()
+#5 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): SiteController->run()
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#7 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\posnail\index.php(29): CWebApplication->run()
+REQUEST_URI=/posnail/
+in C:\xampp\htdocs\posnail\protected\controllers\SiteController.php (27)
+in C:\xampp\htdocs\posnail\index.php (29)
+2015/07/10 09:47:14 [error] [php] include(Spreadsheet_Excel_Reader.php): failed to open stream: No such file or directory (C:\xampp\htdocs\posnail\lib\yii\YiiBase.php:423)
+Stack trace:
+#0 C:\xampp\htdocs\posnail\protected\controllers\SiteController.php(27): spl_autoload_call()
+#1 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#2 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(287): SiteController->runAction()
+#4 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): SiteController->runActionWithFilters()
+#5 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): SiteController->run()
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#7 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\posnail\index.php(29): CWebApplication->run()
+REQUEST_URI=/posnail/
+in C:\xampp\htdocs\posnail\protected\controllers\SiteController.php (27)
+in C:\xampp\htdocs\posnail\index.php (29)
+2015/07/10 09:47:24 [error] [php] include(Spreadsheet_Excel_Reader.php): failed to open stream: No such file or directory (C:\xampp\htdocs\posnail\lib\yii\YiiBase.php:423)
+Stack trace:
+#0 C:\xampp\htdocs\posnail\protected\controllers\SiteController.php(27): spl_autoload_call()
+#1 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#2 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(287): SiteController->runAction()
+#4 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): SiteController->runActionWithFilters()
+#5 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): SiteController->run()
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#7 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\posnail\index.php(29): CWebApplication->run()
+REQUEST_URI=/posnail/
+in C:\xampp\htdocs\posnail\protected\controllers\SiteController.php (27)
+in C:\xampp\htdocs\posnail\index.php (29)
+2015/07/10 10:39:51 [error] [exception.Exception] exception 'Exception' with message 'The filename bcd.xlsx is not readable' in C:\xampp\htdocs\posnail\protected\extensions\phpexcelreader\excel_reader2.php:985
+Stack trace:
+#0 C:\xampp\htdocs\posnail\protected\extensions\phpexcelreader\excel_reader2.php(929): Spreadsheet_Excel_Reader->read('bcd.xlsx')
+#1 C:\xampp\htdocs\posnail\protected\controllers\SiteController.php(28): Spreadsheet_Excel_Reader->Spreadsheet_Excel_Reader('bcd.xlsx')
+#2 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#3 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('index')
+#7 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#8 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\posnail\index.php(29): CApplication->run()
+#10 {main}
+REQUEST_URI=/posnail/
+HTTP_REFERER=http://localhost:81/posnail/
+---
+2015/07/10 10:40:23 [error] [exception.Exception] exception 'Exception' with message 'The filename C:\xampp\htdocs\posnail\protected/../abc.xlsx is not readable' in C:\xampp\htdocs\posnail\protected\extensions\phpexcelreader\excel_reader2.php:985
+Stack trace:
+#0 C:\xampp\htdocs\posnail\protected\extensions\phpexcelreader\excel_reader2.php(929): Spreadsheet_Excel_Reader->read('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\posnail\protected\controllers\SiteController.php(28): Spreadsheet_Excel_Reader->Spreadsheet_Excel_Reader('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#3 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('index')
+#7 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#8 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\posnail\index.php(29): CApplication->run()
+#10 {main}
+REQUEST_URI=/posnail/
+HTTP_REFERER=http://localhost:81/posnail/
+---
+2015/07/10 10:41:37 [error] [exception.Exception] exception 'Exception' with message 'The filename C:\xampp\htdocs\posnail\protected/../abc.xlsx is not readable' in C:\xampp\htdocs\posnail\protected\extensions\phpexcelreader\excel_reader2.php:985
+Stack trace:
+#0 C:\xampp\htdocs\posnail\protected\extensions\phpexcelreader\excel_reader2.php(929): Spreadsheet_Excel_Reader->read('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\posnail\protected\controllers\SiteController.php(27): Spreadsheet_Excel_Reader->Spreadsheet_Excel_Reader('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#3 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('index')
+#7 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#8 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\posnail\index.php(29): CApplication->run()
+#10 {main}
+REQUEST_URI=/posnail/
+HTTP_REFERER=http://localhost:81/posnail/
+---
+2015/07/10 10:47:29 [error] [exception.Exception] exception 'Exception' with message 'The filename C:\xampp\htdocs\posnail\protected/../example.xls is not readable' in C:\xampp\htdocs\posnail\protected\extensions\phpexcelreader\excel_reader2.php:985
+Stack trace:
+#0 C:\xampp\htdocs\posnail\protected\extensions\phpexcelreader\excel_reader2.php(929): Spreadsheet_Excel_Reader->read('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\posnail\protected\controllers\SiteController.php(27): Spreadsheet_Excel_Reader->Spreadsheet_Excel_Reader('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#3 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('index')
+#7 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#8 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\posnail\index.php(29): CApplication->run()
+#10 {main}
+REQUEST_URI=/posnail/
+HTTP_REFERER=http://localhost:81/posnail/
+---
+2015/07/10 10:47:48 [error] [exception.Exception] exception 'Exception' with message 'The filename C:\xampp\htdocs\posnail\protected/../example.xls is not readable' in C:\xampp\htdocs\posnail\protected\extensions\phpexcelreader\excel_reader2.php:985
+Stack trace:
+#0 C:\xampp\htdocs\posnail\protected\extensions\phpexcelreader\excel_reader2.php(929): Spreadsheet_Excel_Reader->read('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\posnail\protected\controllers\SiteController.php(27): Spreadsheet_Excel_Reader->Spreadsheet_Excel_Reader('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#3 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('index')
+#7 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#8 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\posnail\index.php(29): CApplication->run()
+#10 {main}
+REQUEST_URI=/posnail/
+HTTP_REFERER=http://localhost:81/posnail/
+---
+2015/07/10 10:48:34 [error] [php] require_once(C:\xampp\htdocs\posnail\protected/extensions/phpExcelReader/excel_reader.php): failed to open stream: No such file or directory (C:\xampp\htdocs\posnail\protected\controllers\SiteController.php:25)
+Stack trace:
+#0 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(287): SiteController->runAction()
+#2 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): SiteController->runActionWithFilters()
+#3 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): SiteController->run()
+#4 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#5 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\posnail\index.php(29): CWebApplication->run()
+REQUEST_URI=/posnail/
+in C:\xampp\htdocs\posnail\protected\controllers\SiteController.php (25)
+in C:\xampp\htdocs\posnail\protected\controllers\SiteController.php (25)
+in C:\xampp\htdocs\posnail\index.php (29)
+2015/07/10 10:49:16 [error] [exception.Exception] exception 'Exception' with message 'The filename C:\xampp\htdocs\posnail\protected/../example.xls is not readable' in C:\xampp\htdocs\posnail\protected\extensions\phpexcelreader\excel_reader2.php:985
+Stack trace:
+#0 C:\xampp\htdocs\posnail\protected\extensions\phpexcelreader\excel_reader2.php(929): Spreadsheet_Excel_Reader->read('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\posnail\protected\controllers\SiteController.php(26): Spreadsheet_Excel_Reader->Spreadsheet_Excel_Reader('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#3 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('index')
+#7 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#8 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\posnail\index.php(29): CApplication->run()
+#10 {main}
+REQUEST_URI=/posnail/
+HTTP_REFERER=http://localhost:81/posnail/
+---
+2015/07/10 11:13:09 [error] [exception.CException] exception 'CException' with message 'Alias "etx.phpexcel.PHPExcel.*" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\posnail\lib\yii\YiiBase.php:343
+Stack trace:
+#0 C:\xampp\htdocs\posnail\protected\controllers\SiteController.php(25): YiiBase::import('etx.phpexcel.PH...')
+#1 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#2 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('index')
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#7 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\posnail\index.php(29): CApplication->run()
+#9 {main}
+REQUEST_URI=/posnail/
+HTTP_REFERER=http://localhost:81/posnail/
+---
+2015/07/10 11:16:44 [error] [php] include(PHPExcel_IOFactory.php): failed to open stream: No such file or directory (C:\xampp\htdocs\posnail\lib\yii\YiiBase.php:423)
+Stack trace:
+#0 C:\xampp\htdocs\posnail\protected\controllers\SiteController.php(26): spl_autoload_call()
+#1 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#2 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(287): SiteController->runAction()
+#4 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): SiteController->runActionWithFilters()
+#5 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): SiteController->run()
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#7 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\posnail\index.php(29): CWebApplication->run()
+REQUEST_URI=/posnail/
+in C:\xampp\htdocs\posnail\protected\controllers\SiteController.php (26)
+in C:\xampp\htdocs\posnail\index.php (29)
+2015/07/10 11:21:08 [error] [php] include(PHPExcel_Shared_String.php): failed to open stream: No such file or directory (C:\xampp\htdocs\posnail\lib\yii\YiiBase.php:423)
+Stack trace:
+#0 C:\xampp\htdocs\posnail\protected\extensions\phpexcel\PHPExcel\Autoloader.php(36): spl_autoload_call()
+#1 C:\xampp\htdocs\posnail\protected\extensions\phpexcel\PHPExcel\IOFactory.php(35): require()
+#2 C:\xampp\htdocs\posnail\protected\controllers\SiteController.php(25): require_once()
+#3 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\posnail\index.php(29): CWebApplication->run()
+REQUEST_URI=/posnail/
+in C:\xampp\htdocs\posnail\protected\extensions\phpexcel\PHPExcel\Autoloader.php (36)
+in C:\xampp\htdocs\posnail\protected\extensions\phpexcel\PHPExcel\IOFactory.php (35)
+in C:\xampp\htdocs\posnail\protected\controllers\SiteController.php (25)
+2015/07/10 11:21:37 [error] [php] include(PHPExcel_Shared_String.php): failed to open stream: No such file or directory (C:\xampp\htdocs\posnail\lib\yii\YiiBase.php:423)
+Stack trace:
+#0 C:\xampp\htdocs\posnail\protected\extensions\phpexcel\PHPExcel\Autoloader.php(36): spl_autoload_call()
+#1 C:\xampp\htdocs\posnail\protected\extensions\phpexcel\PHPExcel\IOFactory.php(35): require()
+#2 C:\xampp\htdocs\posnail\protected\controllers\SiteController.php(26): require_once()
+#3 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\posnail\index.php(29): CWebApplication->run()
+REQUEST_URI=/posnail/
+in C:\xampp\htdocs\posnail\protected\extensions\phpexcel\PHPExcel\Autoloader.php (36)
+in C:\xampp\htdocs\posnail\protected\extensions\phpexcel\PHPExcel\IOFactory.php (35)
+in C:\xampp\htdocs\posnail\protected\controllers\SiteController.php (26)
+2015/07/10 11:25:20 [error] [exception.PHPExcel_Reader_Exception] exception 'PHPExcel_Reader_Exception' with message 'Could not open C:\xampp\htdocs\posnail\protected/../example.xls for reading! File does not exist.' in C:\xampp\htdocs\posnail\protected\extensions\phpexcel\PHPExcel\Reader\Excel5.php:443
+Stack trace:
+#0 C:\xampp\htdocs\posnail\protected\extensions\phpexcel\PHPExcel\IOFactory.php(268): PHPExcel_Reader_Excel5->canRead('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\posnail\protected\extensions\phpexcel\PHPExcel\IOFactory.php(191): PHPExcel_IOFactory::createReaderForFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\posnail\protected\controllers\SiteController.php(29): PHPExcel_IOFactory::load('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('index')
+#8 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#9 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\posnail\index.php(29): CApplication->run()
+#11 {main}
+REQUEST_URI=/posnail/
+HTTP_REFERER=http://localhost:81/posnail/
+---
+2015/07/10 11:25:44 [error] [php] include(PHPExcel_IOFactory.php): failed to open stream: No such file or directory (C:\xampp\htdocs\posnail\lib\yii\YiiBase.php:423)
+Stack trace:
+#0 C:\xampp\htdocs\posnail\protected\controllers\SiteController.php(29): spl_autoload_call()
+#1 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#2 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(287): SiteController->runAction()
+#4 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): SiteController->runActionWithFilters()
+#5 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): SiteController->run()
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController()
+#7 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\posnail\index.php(29): CWebApplication->run()
+REQUEST_URI=/posnail/
+in C:\xampp\htdocs\posnail\protected\controllers\SiteController.php (29)
+in C:\xampp\htdocs\posnail\index.php (29)
+2015/07/10 11:25:52 [error] [exception.PHPExcel_Reader_Exception] exception 'PHPExcel_Reader_Exception' with message 'Could not open C:\xampp\htdocs\posnail\protected/../file/example.xls for reading! File does not exist.' in C:\xampp\htdocs\posnail\protected\extensions\phpexcel\PHPExcel\Reader\Excel5.php:443
+Stack trace:
+#0 C:\xampp\htdocs\posnail\protected\extensions\phpexcel\PHPExcel\IOFactory.php(268): PHPExcel_Reader_Excel5->canRead('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\posnail\protected\extensions\phpexcel\PHPExcel\IOFactory.php(191): PHPExcel_IOFactory::createReaderForFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\posnail\protected\controllers\SiteController.php(29): PHPExcel_IOFactory::load('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\posnail\lib\yii\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\posnail\lib\yii\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(283): CController->run('index')
+#8 C:\xampp\htdocs\posnail\lib\yii\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#9 C:\xampp\htdocs\posnail\lib\yii\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\posnail\index.php(29): CApplication->run()
+#11 {main}
+REQUEST_URI=/posnail/
+HTTP_REFERER=http://localhost:81/posnail/
+---

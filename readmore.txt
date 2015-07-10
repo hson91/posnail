@@ -1,0 +1,6 @@
+3 tham so mac dinh tien te, ngon ngu, ten shop, time zone
+
+
+//22/06/2015
+Add i_manager kieu tinyint(1) default 0 { bang user }
+Add status kieu tinyint(1) default 0 { bang store }
